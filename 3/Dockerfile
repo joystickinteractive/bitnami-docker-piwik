@@ -22,15 +22,15 @@ ENV APACHE_HTTPS_PORT_NUMBER="443" \
     PATH="/opt/bitnami/apache/bin:/opt/bitnami/php/bin:/opt/bitnami/mysql/bin:$PATH" \
     PIWIK_EMAIL="user@example.com" \
     PIWIK_HOST="127.0.0.1" \
-    PIWIK_PASSWORD="bitnami" \
-    PIWIK_USERNAME="User" \
-    PIWIK_WEBSITE_HOST="https://example.org" \
-    PIWIK_WEBSITE_NAME="example" \
-    SMTP_HOST="" \
-    SMTP_PASSWORD="" \
-    SMTP_PORT="" \
+    PIWIK_PASSWORD="knock2x!" \
+    PIWIK_USERNAME="joystick" \
+    PIWIK_WEBSITE_HOST="https://matomo.joystickinteractive.com" \
+    PIWIK_WEBSITE_NAME="Matomo" \
+    SMTP_HOST="smtp.mailgun.org" \
+    SMTP_PASSWORD="14d421b1ad63050cd7b61f65e62923d0" \
+    SMTP_PORT="587" \
     SMTP_PROTOCOL="" \
-    SMTP_USER=""
+    SMTP_USER="postmaster@matomo.joystickinteractive.com"
 
 EXPOSE 80 443
 
